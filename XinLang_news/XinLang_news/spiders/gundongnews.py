@@ -4,6 +4,7 @@ import re
 from bs4 import BeautifulSoup
 from scrapy import Selector
 import scrapy
+
 from chardet import detect
 from scrapy.contrib import spiderstate
 from scrapy.contrib.linkextractors import LinkExtractor
